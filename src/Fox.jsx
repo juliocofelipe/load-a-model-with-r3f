@@ -1,7 +1,6 @@
 import { useAnimations, useGLTF } from "@react-three/drei";
 import { useControls } from "leva";
 import { useEffect } from "react";
-import { mx_bilerp_0 } from "three/src/nodes/materialx/lib/mx_noise.js";
 
 export default function Fox() 
 {
