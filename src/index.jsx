@@ -7,7 +7,8 @@ import * as THREE from 'three'
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
 root.render(
-    <Canvas
+    <Canvas 
+        shadows
         gl={{
             antialias: true,
             toneMapping: THREE.ACESFilmicToneMapping,
